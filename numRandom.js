@@ -10,7 +10,7 @@ function genRandomNum(){
 
     if(randNumMax>randNumMin){
         let test = document.getElementById("test")
-        test.innerHTML = Math.floor(Math.random() * randNumMax) + randNumMin
+        test.innerHTML = Math.floor(randNumMin + Math.random() * (randNumMax + 1 - randNumMin))
     }
     
 }
