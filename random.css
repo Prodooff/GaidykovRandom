@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    font-family: 'Noto Serif', serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #479761 ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: #CEBC81 1px 3px 0, 
+                 #333 1px 1px 0;
+}
+
+#colorBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#lol{
+    display: block;
+}
+
+#home1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#home1 img {
+    max-width: 200px;
+}
+
+#home2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#home2 img {
+    max-width: 200px;
+}
+
+#home1andhome2 {
+    display: block;
+    margin-top: 100px;
+}
+
+.randomiser {
+    display: flex;
+    background-color: #CEBC81;
+    border-radius: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+    transition: padding 0.3s;
+    box-shadow: 0 5px 0 #230d2f;
+}
+
+.randomiser:hover{
+    margin: 15px;
+    padding: 25px 35px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.onep {
+    max-width: 220px;
+    font-size: 34px;
+    padding-left: 20px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.twop {
+    max-width: 220px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    color: rgb(51, 51, 51);
+}
+
+
+#one h2{
+    border: 2px solid black;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ddd350;
+    font-size: 40px;
+}
+
+#one input{
+    font-size: 30px;
+    background-color:  #fff09a;
+}
+
+#one {
+    padding-top: 380px;
+    padding-bottom: 370px;
+    text-align: center;
+    display: block;
+}
+
+#one img {
+    max-width: 150px;
+    display: flex;
+}
+
+#two h2{
+    border: 2px solid black;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ddd350;
+    font-size: 40px;
+}
+
+#two {
+    padding-top: 400px;
+    padding-bottom: 370px;
+    text-align: center;
+    display: block;
+}
+
+#two input, select {
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#three{
+    padding-top: 400px;
+    padding-bottom: 370px;
+    text-align: center;
+    display: block;
+}
+
+#three input{
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#three h2{
+    border: 2px solid black;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ddd350;
+    font-size: 40px;
+}
+
+#four {
+    padding-top: 400px;
+    padding-bottom: 370px;
+    text-align: center;
+    display: block;
+}
+
+#four input{
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#four h2{
+    border: 2px solid black;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ddd350;
+    font-size: 40px;
+}
+
+#five{
+    padding-top: 380px;
+    padding-bottom: 370px;
+    text-align: center;
+    display: block;
+}
+
+#five h2{
+    border: 2px solid black;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ddd350;
+    font-size: 40px;
+}
+
+#five input {
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#holiday {
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#color {
+    font-size: 30px;
+}
+
+#date {
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#test {
+    font-size: 30px;
+    background-color: #fff09a;
+}
+
+#test2{
+    font-size: 30px;
+    background-color: #fff09a;
+}
