@@ -289,6 +289,44 @@ display: none;
         <div id="okno2">
             <form id="three">
                 <h2>Вы хотите получить случайную дату? Это легко с данным генератором</h2>
+                <span> Стартовые значения даты:</span>
+                <input type="text" size="4" placeholder="0000" maxlength="4" id="InpStartYear">
+                <select name="" id="InpStartMonth">
+                    <option value="0"> Январь</option>
+                    <option value="1"> Февраль</option>
+                    <option value="2"> Март</option>
+                    <option value="3"> Апрель</option>
+                    <option value="4"> Май</option>
+                    <option value="5"> Июнь</option>
+                    <option value="6"> Июль</option>
+                    <option value="7"> Август</option>
+                    <option value="8"> Сентябрь</option>
+                    <option value="9"> Октябрь</option>
+                    <option value="10"> Ноябрь</option>
+                    <option value="11"> Декабрь</option>
+                </select>
+                <input type="text" size="2" placeholder="00" maxlength="2" id="InpStartDay">
+                <br>
+                <br>
+                <span>Конечные значения даты:</span>
+                <input type="text" size="4" placeholder="0000" maxlength="4" id="InpEndYear">
+                <select name="" id="InpEndMonth">
+                    <option value="0"> Январь</option>
+                    <option value="1"> Февраль</option>
+                    <option value="2"> Март</option>
+                    <option value="3"> Апрель</option>
+                    <option value="4"> Май</option>
+                    <option value="5"> Июнь</option>
+                    <option value="6"> Июль</option>
+                    <option value="7"> Август</option>
+                    <option value="8"> Сентябрь</option>
+                    <option value="9"> Октябрь</option>
+                    <option value="10"> Ноябрь</option>
+                    <option value="11"> Декабрь</option>
+                </select>
+                <input type="text" size="2"placeholder="00" maxlength="2" id="InpEndDay">
+                <br>
+                <br>
                 <input type="button" value="Получить дату" onclick="getRandomDate()">
                 <br><br>
                 <span id="date"></span>
