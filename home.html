@@ -7,62 +7,338 @@
     <link rel="stylesheet" href="random.css">
     <title>Document</title>
 </head>
+<style>
+#okno
+{
+    width: 800px;
+    height: 80%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie 
+{
+background: rgba(102, 102, 102, 0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+}
+#zatemnenie:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+      #okno2{
+        width: 800px;
+    height: 80%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie2
+{
+background: rgba(102, 102, 102, 0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+}
+#zatemnenie2:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+    .close:hover {background: #e6e6ff;}
+#okno3{
+    width: 800px;
+    height: 80%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie3
+{
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#zatemnenie3:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+.close:hover {background: #e6e6ff;}
+
+#okno4{
+    width: 800px;
+    height: 80%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie4
+{
+background: rgba(102, 102, 102, 0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+}
+#zatemnenie4:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+.close:hover {background: #e6e6ff;}
+
+#okno5{
+    width: 800px;
+    height: 80%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie5
+{
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#zatemnenie5:target {display: block;}
+      .close {
+        display: inline-block;
+        border: 1px solid #0000cc;
+        color: #0000cc;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+.close:hover {background: #e6e6ff;}
+</style>
 <body>
     <h1 id="welcome">Добро Пожаловать на сайт рандомазеров!</h1>
     <div id="home1andhome2">
-    <div id="home1">
-        <a href="randomisernum.html">
-        <div class="randomiser">
-            <img src="images/number.png">
-            <div class="lol">
-                <p class="onep">Генератор чисел</p>
-                <p class="twop">Генерация слуйчайного числа</p>
-            </div>
-        </div>
-        </a>
+        <div id="home1">
+            <a href="#zatemnenie">
+                <div class="randomiser">
+                    <img src="images/number.png">
+                    <div class="lol">
+                        <p class="onep">Генератор чисел</p>
+                        <p class="twop">Генерация слуйчайного числа</p>
+                    </div>
+                </div>
+            </a>
 
-        <a href="randomisername.html">
-        <div class="randomiser">
-            <img src="images/name.png">
-            <div class="lol">
-                <p class="onep">Генератор имени</p>
-                <p class="twop">Генерация слуйчайного имени</p>
-            </div>
-        </div>
-        </a>
+            <a href="#zatemnenie3">
+                <div class="randomiser">
+                    <img src="images/name.png">
+                    <div class="lol">
+                        <p class="onep">Генератор имени</p>
+                        <p class="twop">Генерация слуйчайного имени</p>
+                    </div>
+                </div>
+            </a>
 
-        <a href="randomiserdate.html">
-        <div class="randomiser">
-            <img src="images/calendar.png">
-            <div class="lol">
-                <p class="onep">Генератор даты</p>
-                <p class="twop">Генерация слуйчайной даты</p>
-            </div>
+            <a href="#zatemnenie2">
+                <div class="randomiser">
+                    <img src="images/calendar.png">
+                    <div class="lol">
+                        <p class="onep">Генератор даты</p>
+                        <p class="twop">Генерация слуйчайной даты</p>
+                    </div>
+                </div>
+            </a>
+            
         </div>
-        </a>
+
+        <div id="home2">
+            <a href="#zatemnenie4">
+                <div class="randomiser">
+                <img src="images/color.png">
+                <div class="lol">
+                    <p class="onep">Генератор цвета</p>
+                    <p class="twop">Генерация слуйчайного цвета</p>
+                </div>
+        </div>
+            </a>
+
+            <a href="#zatemnenie5">
+                <div class="randomiser">
+                    <img src="images/beach.png">
+                    <div class="lol">
+                        <p class="onep">Генератор места</p>
+                        <p class="twop">Генерация слуйчайного места для отдыха</p>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
 
-    <div id="home2">
-        <a href="randomisercolor.html">
-        <div class="randomiser">
-            <img src="images/color.png">
-            <div class="lol">
-                <p class="onep">Генератор цвета</p>
-                <p class="twop">Генерация слуйчайного цвета</p>
-            </div>
-        </div>
-        </a>
+<!--МОДАЛЬНЫЕ ОКНА МОДАЛЬНЫЕ ОКНА МОДАЛЬНЫЕ ОКНА МОДАЛЬНЫЕ ОКНА МОДАЛЬНЫЕ ОКНА МОДАЛЬНЫЕ ОКНА -->
 
-        <a href="randomisermesto.html">
-        <div class="randomiser">
-            <img src="images/beach.png">
-            <div class="lol">
-                <p class="onep">Генератор места</p>
-                <p class="twop">Генерация слуйчайного места для отдыха</p>
-            </div>
+<div id="zatemnenie">
+    <div id="okno">
+        <form id="one">
+            <h2>Вам нужно рандомное число в любом промежутке? Попробуйте это.</h2>
+            <input type="text" id="randblock1" placeholder="Введите минимальное значение" size="30">
+            <input type="text" id="randblock2" placeholder="Введите максимальное значение" size="30">
+            <input type="button" value="Рандомить" onclick="genRandomNum()">
+            <br><br>
+            <span id="test"></span>
+        </form>
+        <script src="numRandom.js"></script>
+        <a href="#" class="close">Закрыть окно</a>
+    </div>
+  </div>
+
+    <div id="zatemnenie2">
+        <div id="okno2">
+            <form id="three">
+                <h2>Вы хотите получить случайную дату? Это легко с данным генератором</h2>
+                <input type="button" value="Получить дату" onclick="getRandomDate()">
+                <br><br>
+                <span id="date"></span>
+            </form>
+            <script src="dateRandom.js"></script>
+            <a href="#" class="close">Закрыть окно</a>
         </div>
-        </a>
+    </div>
+       
+    <div id="zatemnenie3">
+        <div id="okno3">
+            <form id="two">
+                <h2>Выбираете имя для ребенка? Это вам поможет.</h2>
+                <select id="gender">
+                    <option value="Мужское">Мужское</option>
+                    <option value="Женское">Женское</option>
+                </select>
+                <input type="button" value="Сгенерировать" onclick="getRandName()">
+                <br><br>
+                <span id="test2"></span>
+                </form>
+            <script src="nameRandom.js"></script>
+            <a href="#" class="close">Закрыть окно</a>
+        </div>
+    </div>
+
+    <div id="zatemnenie4">
+        <div id="okno4">
+            <form id="four">
+                <h2>Рандомайзер цвета</h2>
+                <input type="button" value="Цвет" onclick="getRandomColor()">
+                <div id="colorBlock">
+                    <span id="color"></span>
+                </div>
+            </form>
+        <script src="colorRandom.js"></script>
+        <a href="#" class="close">Закрыть окно</a>
     </div>
 </div>
+
+<div id="zatemnenie5">
+    <div id="okno5">
+        <form id="five">
+            <h2>Хотите поехать на отдых, но не знаете куда ? Это вам поможет.</h2>
+            <input type="button" value="Отдых" onclick="getRandHoliday()">
+            <br><br>
+            <span id="holiday"></span>
+        </form>
+        <a href="#" class="close">Закрыть окно</a>
+        <script src="holidayRandom.js"></script>
+    </div>
+</div>
+
 </body>
 </html>
