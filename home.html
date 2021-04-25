@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="welcome">Добро Пожаловать на сайт рандомазеров!</h1>
+    <h1 id="welcome">Добро Пожаловать на сайт рандомайзеров!</h1>
     <div id="home1andhome2">
         <div id="home1">
             <a href="#zatemnenie">
@@ -74,14 +74,29 @@
             <h2>Вам нужно рандомное число в любом промежутке? Попробуйте это.</h2>
             <input type="text" id="randblock1" placeholder="Введите минимальное значение" size="30">
             <input type="text" id="randblock2" placeholder="Введите максимальное значение" size="30">
-            <input type="button" value="Рандомить" onclick="genRandomNum()">
+            <input class="buttonOkno" type="button" value="Рандомить" onclick="genRandomNum()">
             <br><br>
             <span id="test"></span>
         </form>
         <script src="numRandom.js"></script>
-        <a href="#" class="close">Закрыть окно</a>
     </div>
-  </div>
+    <!-- кнопка -->
+
+    <a href="home.html" 
+            style="display:block;
+            position:fixed;
+            bottom:665px;
+            right:498px;
+            width:64px;
+            height:32px;
+            padding:12px 10px 2px;
+            font-size:16px;
+            text-align:center;">
+            <img src="close.png" width="30" height="30">
+    </a>
+    
+    <!-- кнопка -->
+</div>
 
     <div id="zatemnenie2">
         <div id="okno2">
@@ -125,13 +140,29 @@
                 <input type="text" size="2"placeholder="00" maxlength="2" id="InpEndDay">
                 <br>
                 <br>
-                <input type="button" value="Получить дату" onclick="getRandomDate()">
+                <input class="buttonOkno" type="button" value="Получить дату" onclick="getRandomDate()">
                 <br><br>
                 <span id="date"></span>
             </form>
             <script src="dateRandom.js"></script>
-            <a href="#" class="close">Закрыть окно</a>
         </div>
+        <!-- кнопка -->
+
+    <a href="home.html" 
+        style="display:block;
+        position:fixed;
+        bottom:665px;
+        right:498px;
+        width:64px;
+        height:32px;
+        padding:12px 10px 2px;
+        font-size:16px;
+        text-align:center;">
+        <img src="close.png" width="30" height="30">
+    </a>
+
+    <!-- кнопка -->
+
     </div>
        
     <div id="zatemnenie3">
@@ -142,40 +173,88 @@
                     <option value="Мужское">Мужское</option>
                     <option value="Женское">Женское</option>
                 </select>
-                <input type="button" value="Сгенерировать" onclick="getRandName()">
+                <input class="buttonOkno" type="button" value="Сгенерировать" onclick="getRandName()">
                 <br><br>
                 <span id="test2"></span>
                 </form>
             <script src="nameRandom.js"></script>
-            <a href="#" class="close">Закрыть окно</a>
         </div>
+        <!-- кнопка -->
+
+    <a href="home.html" 
+        style="display:block;
+        position:fixed;
+        bottom:665px;
+        right:498px;
+        width:64px;
+        height:32px;
+        padding:12px 10px 2px;
+        font-size:16px;
+        text-align:center;">
+        <img src="close.png" width="30" height="30">
+    </a>
+
+<!-- кнопка --> 
+
     </div>
 
     <div id="zatemnenie4">
         <div id="okno4">
             <form id="four">
                 <h2>Рандомайзер цвета</h2>
-                <input type="button" value="Цвет" onclick="getRandomColor()">
+                <input class="buttonOkno" type="button" value="Цвет" onclick="getRandomColor()">
                 <div id="colorBlock">
                     <span id="color"></span>
                 </div>
             </form>
         <script src="colorRandom.js"></script>
-        <a href="#" class="close">Закрыть окно</a>
     </div>
+
+    <!-- кнопка -->
+
+    <a href="home.html" 
+            style="display:block;
+            position:fixed;
+            bottom:665px;
+            right:498px;
+            width:64px;
+            height:32px;
+            padding:12px 10px 2px;
+            font-size:16px;
+            text-align:center;">
+            <img src="close.png" width="30" height="30">
+    </a>
+    
+    <!-- кнопка -->
+
 </div>
 
 <div id="zatemnenie5">
     <div id="okno5">
         <form id="five">
             <h2>Хотите поехать на отдых, но не знаете куда ? Это вам поможет.</h2>
-            <input type="button" value="Отдых" onclick="getRandHoliday()">
+            <input class="buttonOkno" type="button" value="Отдых" onclick="getRandHoliday()">
             <br><br>
             <span id="holiday"></span>
         </form>
-        <a href="#" class="close">Закрыть окно</a>
         <script src="holidayRandom.js"></script>
     </div>
+    <!-- кнопка -->
+
+    <a href="home.html" 
+            style="display:block;
+            position:fixed;
+            bottom:665px;
+            right:498px;
+            width:64px;
+            height:32px;
+            padding:12px 10px 2px;
+            font-size:16px;
+            text-align:center;">
+            <img src="close.png" width="30" height="30">
+    </a>
+    
+    <!-- кнопка -->
 </div>
 
 </body>
